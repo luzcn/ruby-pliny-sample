@@ -19,6 +19,9 @@ gem "sinatra-contrib", require: ["sinatra/namespace", "sinatra/reloader"]
 gem "sinatra-router"
 gem "sucker_punch"
 
+# Http client for Ruby https://github.com/excon/excon
+gem "excon"
+
 group :development, :test do
   gem "pry-byebug"
   gem "rubocop", "~> 0.52.1", require: false

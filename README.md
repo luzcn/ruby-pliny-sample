@@ -1,5 +1,4 @@
-# Pliny Template app
+#  Heroku Sleuth-core-api Sample App
+A sample API application using the [Pliny](https://github.com/interagent/pliny) gem.
 
-This is the template app used by the [Pliny](https://github.com/interagent/pliny) gem.
 
-For more information please refer to the gem docs.
