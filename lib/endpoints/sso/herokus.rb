@@ -1,5 +1,5 @@
-module Endpoints
-  class Sso::Herokus < Base
+module Endpoints::SSO
+  class Herokus < Endpoints::Base
     namespace "/sso/herokus" do
       get do
         encode []

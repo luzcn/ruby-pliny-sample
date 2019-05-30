@@ -10,7 +10,7 @@ module Config
   extend Pliny::CastingConfigHelpers
 
   # Mandatory -- exception is raised for these variables when missing.
-  mandatory :database_url, string
+  optional :database_url, string
 
   # Optional -- value is returned or `nil` if it wasn't present.
   optional :app_name,            string
